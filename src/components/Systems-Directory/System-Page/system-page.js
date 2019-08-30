@@ -22,8 +22,8 @@ class SystemPage extends Component {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7">
-                            <div className="container system-info">
+                        <div className="w-75">
+                            <div className="container border system-info">
                                 <div className="row tabs">
                                     <div className="col btn-success py-3">
                                         Description
@@ -42,6 +42,9 @@ class SystemPage extends Component {
                         </div>
                                 </div>
                                 <div className="row tab-content">
+                                    <div className="p-5">
+                                        Information Display Box. This Data will be toggled with the tabs above.
+                                    </div>
 
                                 </div>
                             </div>
